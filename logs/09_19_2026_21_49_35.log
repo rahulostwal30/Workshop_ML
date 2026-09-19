@@ -1,0 +1,20 @@
+[2026-09-19 21:49:35,642] 11 __main__ -INFO -TRAINING PIPELINE STARTED....
+[2026-09-19 21:49:35,642] 23 src.components.data_ingestion -INFO -Data Ingestion Started......
+[2026-09-19 21:49:35,656] 26 src.components.data_ingestion -INFO -Data read successfully with shape: (100, 6)
+[2026-09-19 21:49:35,663] 31 src.components.data_ingestion -INFO -performing train_test_split
+[2026-09-19 21:49:35,729] 37 src.components.data_ingestion -INFO -Data Ingestion completed successfully
+[2026-09-19 21:49:35,729] 38 src.components.data_ingestion -INFO -_ _ _ _ _ _ _ _
+[2026-09-19 21:49:35,735] 61 src.components.data_transformation -INFO -Train and test data loaded for transformation
+[2026-09-19 21:49:35,746] 51 src.components.data_transformation -INFO -preprocessor object created successfully...
+[2026-09-19 21:49:35,746] 70 src.components.data_transformation -INFO -Applying preprocessing oon train and test data
+[2026-09-19 21:49:35,778] 15 src.utils -INFO -Object saved successfullly at : artifacts\preprocessor.pkl
+[2026-09-19 21:49:35,778] 81 src.components.data_transformation -INFO -Preprcoessor bject saved as preprocessor.pkl
+[2026-09-19 21:49:35,778] 23 src.components.model_trainer -INFO -Spliting train and test input data
+[2026-09-19 21:49:35,857] 35 src.utils -INFO -LogisiticRegression -> Test Accuracy: 0.35
+[2026-09-19 21:49:35,870] 35 src.utils -INFO -DecisionTree -> Test Accuracy: 0.35
+[2026-09-19 21:49:36,001] 35 src.utils -INFO -RandomForest -> Test Accuracy: 0.35
+[2026-09-19 21:49:36,013] 35 src.utils -INFO -KNeighboursClassifier -> Test Accuracy: 0.40
+[2026-09-19 21:49:36,013] 43 src.components.model_trainer -INFO -Best Model saved as model.pkl ::: KNeighboursClassifier
+[2026-09-19 21:49:36,015] 15 src.utils -INFO -Object saved successfullly at : artifacts\model.pkl
+[2026-09-19 21:49:36,015] 46 src.components.model_trainer -INFO -Best Model saved: KNeighboursClassifier
+[2026-09-19 21:49:36,017] 25 __main__ -INFO -TRAINING PIPELINE COMPLETED | BEST MODEL: KNeighboursClassifier, Accuracy: 0.40
