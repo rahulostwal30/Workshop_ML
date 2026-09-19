@@ -1,0 +1,4 @@
+[2026-09-19 10:52:02,505] 23 __main__ -INFO -Data Ingestion Started......
+[2026-09-19 10:52:02,535] 26 __main__ -INFO -Data read successfully with shape: (100, 6)
+[2026-09-19 10:52:02,592] 31 __main__ -INFO -performing train_test_split
+[2026-09-19 10:52:03,214] 37 __main__ -INFO -Data Ingestion completed successfully
