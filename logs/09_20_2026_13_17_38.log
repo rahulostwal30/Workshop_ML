@@ -1,0 +1,6 @@
+[2026-09-20 13:18:10,594] 22 main -INFO -Home page accessed...
+[2026-09-20 13:18:12,961] 27 main -INFO -Predict form page accessed.....
+[2026-09-20 13:18:24,913] 40 main -INFO -Prediction request received :: age25, genderMale, fever104.5, coughMild,cityKolkata
+[2026-09-20 13:18:24,913] 37 src.pipeline.predict_pipeline -INFO -Loading Model and Preprocessor
+[2026-09-20 13:18:25,056] 20 src.exception -ERROR -Error occured in python script [C:\Users\rahul\OneDrive\Desktop\workshop\src\pipeline\predict_pipeline.py]at line number: [41]with error message: ['PredictPipeline' object has no attribute 'preprocessor_transform']
+[2026-09-20 13:18:25,064] 20 src.exception -ERROR -Error occured in python script [C:\Users\rahul\OneDrive\Desktop\workshop\main.py]at line number: [44]with error message: [Error occured in python script [C:\Users\rahul\OneDrive\Desktop\workshop\src\pipeline\predict_pipeline.py]at line number: [41]with error message: ['PredictPipeline' object has no attribute 'preprocessor_transform']]

@@ -1,0 +1,6 @@
+[2026-09-20 13:14:03,269] 40 main -INFO -Prediction request received :: age24, genderMale, fever104.0, coughMild,cityDelhi
+[2026-09-20 13:14:03,269] 20 src.exception -ERROR -Error occured in python script [C:\Users\rahul\OneDrive\Desktop\workshop\main.py]at line number: [42]with error message: ['CustomData' object has no attribute 'get_data_as_dataframe']
+[2026-09-20 13:14:07,675] 40 main -INFO -Prediction request received :: age24, genderMale, fever104.0, coughMild,cityDelhi
+[2026-09-20 13:14:07,675] 20 src.exception -ERROR -Error occured in python script [C:\Users\rahul\OneDrive\Desktop\workshop\main.py]at line number: [42]with error message: ['CustomData' object has no attribute 'get_data_as_dataframe']
+[2026-09-20 13:14:13,149] 40 main -INFO -Prediction request received :: age24, genderMale, fever104.0, coughMild,cityDelhi
+[2026-09-20 13:14:13,151] 20 src.exception -ERROR -Error occured in python script [C:\Users\rahul\OneDrive\Desktop\workshop\main.py]at line number: [42]with error message: ['CustomData' object has no attribute 'get_data_as_dataframe']

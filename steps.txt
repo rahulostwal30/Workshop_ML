@@ -17,3 +17,22 @@ src ---> compoents ---> __init__.py
 src ----> compoents ---> data_ingestion.py 
 
 src ----> components ----> data_transformation.py
+
+src ----> compoents -----> model_trainer.py
+
+src ----> pipeline ------> train_pipeline.py
+
+src ----> pipeline ------> predict_pipeline.py
+
+main.py  -----> for FastApi backend
+
+templete/index.html ----> home page 
+templete/predict.html ---> form page
+
+static/style.css
+
+for runing the server on terminal
+(uvicorn main:app --reload --host 0.0.0.0 --port 8000)
+
+
+

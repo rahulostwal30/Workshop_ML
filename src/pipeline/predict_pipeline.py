@@ -14,18 +14,18 @@ class CustomData:
         self.cough = cough
         self.city = city
 
-        def get_data_as_dataframe(self):
-            try:
-                custom_data_input_dict = {
+    def get_data_as_dataframe(self):
+        try:
+            custom_data_input_dict = {
                     "age" : [self.age],
                     "gender" : [self.gender],
                     "fever" : [self.fever],
                     "cough" : [self.cough],
                     "city" : [self.city]
                 }
-                return pd.DataFrame(custom_data_input_dict)
-            except Exception as e:
-                raise CustomException(e,sys)
+            return pd.DataFrame(custom_data_input_dict)
+        except Exception as e:
+            raise CustomException(e,sys)
 
 class PredictPipeline:
     def __init__(self):
@@ -38,7 +38,7 @@ class PredictPipeline:
             model = load_object(self.model_path)
             self.preprocessor = load_object(self.preprocessor_path)
 
-            data_scaled = self.preprocessor_transform(features)
+            data_scaled = self.preprocessor.transform(features)
             prediction = model.predict(data_scaled)
 
             probability = None
