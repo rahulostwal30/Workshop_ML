@@ -1,0 +1,2 @@
+[2026-09-20 22:47:10,851] 15 nlp_pretrained.embedding -INFO -Loading pretrained Model for Embedding: glove-wiki-gigaword-50
+[2026-09-20 22:47:10,851] 20 src.exception -ERROR -Error occured in python script [C:\Users\rahul\OneDrive\Desktop\workshop\nlp_pretrained\embedding.py]at line number: [21]with error message: [name 'api' is not defined]
